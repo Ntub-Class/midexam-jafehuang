@@ -5,6 +5,13 @@
 
 let calcWord = function (content: string, keyword: string) {
 
+    let ans = 0;
+    for (let i = 0; i <= content.length ; i++ ) {
+        if (content.charAt(i) === keyword) {
+            ans += 1;
+        }
+    }
+       console.log(ans)
 }
 
 console.log(calcWord('Abcdaaeafga', 'a')) // 4

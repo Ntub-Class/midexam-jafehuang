@@ -7,9 +7,19 @@
 
 let calc = function (calcString: string) {
 
+    let a = (a: number , b: number) => {
+         for (let i = 1; i <= a; i++) {
+             for (let j = 1; j <= b; j++) {
+                     console.log(i + ' X ' + j + ' = ' + i * j);
+
+
+
 }
+
+
 
 calc('8*2')
 calc('1+1')
 calc('5/5')
 calc('9-1')
+
